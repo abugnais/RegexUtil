@@ -114,7 +114,7 @@ class RegexUtil {
      *  @param bool $upperCase password condition:need to have at least one upper case character default = false
      */
     public static function passwordVlidator($text,$minLength = 6,$char = true,$digit = true,$symbol = false,$upperCase = false) {
-        $regex = '(?=.{' . $minLength . ',\})';
+        $regex = '(?=.{' . $minLength . ',})';
         $regex .= $char         ? '(?=.+[a-zA-Z])'   : '';
         $regex .= $digit        ? '(?=.+\d)'         : '';
         $regex .= $upperCase    ? '(?=.+[A-Z])'      : '';
