@@ -1,7 +1,6 @@
 <?php
 
 /*
- *  Ahmad Moqanasa
  *
  *  php regualr expressions utility library
  *  to use this library your strings need to be encoded in utf-8
